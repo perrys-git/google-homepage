@@ -1,0 +1,1 @@
+A mini-project to learn/demonstrate how to use Developer tools to deconstruct and rebuild an existing webpage.
