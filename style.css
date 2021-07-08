@@ -70,8 +70,18 @@ header {
     width: 550px;
     font-size: 16px;
     height: 40px;
+    background-image: url("/images/1x/round_search_black_24dp.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid rgba(204, 204, 204, 0.493);
+}
+.google-search-space input:focus{
+    border: 1px solid rgba(204, 204, 204, 0.493);
+    box-shadow: 0px 0px 2px  0.5px #88888825,
+                0px 0px 2px  1px #88888825;
+    outline: none;
 }
 .google-search-space .google-search-buttons {
     padding-top: 18px;
