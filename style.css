@@ -66,6 +66,13 @@ header {
     justify-content: center;
     padding: 20px;
 }
+.google-search-space input{
+    width: 550px;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgba(204, 204, 204, 0.493);
+}
 .google-search-space .google-search-buttons {
     padding-top: 18px;
 }
