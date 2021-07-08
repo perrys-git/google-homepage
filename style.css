@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 99vh;
+    width: 99vw;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +11,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 6px;
 }
 .top-left-nav {
@@ -21,6 +22,7 @@ header {
     margin: 0 5px;
     padding: 5px;
     color: #222;
+    font-size: 14px;
     text-decoration: none;
 }
 .top-left-nav a:hover {
@@ -37,6 +39,7 @@ header {
     margin: 0 5px;
     padding: 5px;
     color: #222;
+    font-size: 14px;
     text-decoration: none;
 }
 .top-right-nav a:hover {
@@ -71,30 +74,50 @@ header {
 
 .google-bottom-space {
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 footer {
     background-color: #f2f2f2;
     display: flex;
+    width: 100%;
+    padding: 6px;
     justify-content: space-between;
     flex-shrink: 0;
 }
 .bottom-nav {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     height:  47px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
+}
+.bottom-nav a {
+    margin: 0 5px;
+    padding: 5px;
+    color: #222;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bottom-nav a:hover {
+    text-decoration: underline;
 }
 .bottom-left-nav {
     display: flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    justify-content: flex-start;
+    min-width: 30%;
 }
 .bottom-middle-nav {
     display: flex;
-    background-color: brown;
+    /* background-color: brown; */
+    justify-content: space-between;
 }
 .bottom-right-nav {
     display: flex;
-    background-color: coral;
+    /* background-color: coral; */
+    justify-content: flex-end;
+    min-width: 30%;
 }
